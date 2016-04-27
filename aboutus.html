@@ -54,7 +54,8 @@
 	                <div class="user-box">
 	                	<h2>Sign up as a User</h2>
 	                    <!--FORM FIELD START-->
-	                    <div class="form">
+						<form action = "connect.php" method = "post">
+						<div class="form">
 	                        <div class="input-container">
 	                            <input type="text" placeholder="Name">
 	                            <i class="fa fa-user"></i>
@@ -79,7 +80,7 @@
 	                        <div class="input-container">
 	                            <button class="btn-style">Sign Up</button>
 	                        </div>
-	                    </div>
+	                    </div></form>
 	                    <!--FORM FIELD END-->
 	                </div>
 	                <!--SIGNIN AS USER END-->
@@ -101,6 +102,7 @@
 	                <div class="user-box">
 	                    <h2>Sign In</h2>
 	                    <!--FORM FIELD START-->
+						<form action = "LVsingin.php" method = "get">
 	                    <div class="form">
 	                        <div class="input-container">
 	                            <input type="text" placeholder="E-mail">
@@ -122,7 +124,7 @@
 	                        <div class="input-container">
 	                            <button class="btn-style">Sign In</button>
 	                        </div>
-	                    </div>
+	                    </div></form>
 	                    <!--FORM FIELD END-->
 	                </div>
 	                <div class="user-box-footer">
@@ -170,6 +172,10 @@
 							<div class="kf-nav">
 								<div  id="nav-main">
 									<ul>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
 										<li></li>
 										<li></li>
 										<li><a href="index.html">home</a></li>
@@ -250,8 +256,10 @@
 							<div class="text">
 								<h4>Who We Are ?</h4>
 								<h5>Short Overview</h5>
-								<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra perhim. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum. Etiam pharetra erat sed fermentum feugiat velit mauris egestas quam ut aliquam massa nisl quis neque.</p>
-								<p>Sed ut imperdiet nisi. Proin condimentum. Etiam pharetra erat sed feugiat velit mauris egestas quam ut aliquam massa nisl quis neque.</p>
+								<p>LandVol brings you to a home away from home in cities around the United States. Our startup company takes pride in providing customers a low cost high quailty place to stay. We do this by allowing people around the country to post spare rooms to be booked by different users of the site.</p>
+								<h5>Our Mission</h5>
+								<li></li>
+								<p><h6>We give our customers a home away from home!</h6></p>
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -419,7 +427,7 @@
 					<!--HEADING 1 START-->
 					<div class="col-md-12">
 						<div class="kf-heading-1">
-							<h3> Our Special Staff</h3>
+							<h3> Our Team </h3>
 							<span><i class="icon-hotel"></i></span>
 						</div>
 					</div>
@@ -429,150 +437,67 @@
 							<div class="item">
 								<!--STAFF THUMB START-->
 								<div class="kf-staff-thumb">
-				 					<figure>
-				 						<img src="extra-images/staff1.jpg" alt="">
-			 							<div class="kf-overlay">
-				 							<h5>Anna Doe</h5>
-				 							<ul class="kf-staff-social">
-				 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				 							</ul>
-				 							<p>Nullam ac urna eu felis sit amet a augue. Sed neque sed ut nisi neque sed ut urna eu felis sit amet.</p>
-				 							<a href="#">Read More</a>
-				 						</div>
-				 						
-				 					</figure>
-				 				</div>
-				 				<!--STAFF THUMB END-->
+									<figure>
+										<img src="images/davepic2.png" alt="">
+										<div class="kf-overlay">
+											<h5>Skyler Devine</h5>
+											<ul class="kf-staff-social">
+												<li><a href="https://www.facebook.com/skyler.devine.9"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="https://www.instagram.com/skyler.devine/"><i class="fa fa-instagram"></i></a></li>
+												<li><a href="http://ilab2.engr.utk.edu:10080/Dr.%20Li/hw/part1/Skyler%20Devine/wg_one_resume_page/HTML/index.htm"><i class="fa fa-behance"></i></a></li>
+											</ul>
+											<p>Skyler likes long walks on the beach and chasing tail</p>
+											<a href="#">Read More</a>
+										</div>
+									</figure>
+								</div>
+								<!--STAFF THUMB END-->
 							</div>
 
 							<div class="item">
 								<!--STAFF THUMB START-->
 								<div class="kf-staff-thumb">
-				 					<figure>
-				 						<img src="extra-images/staff2.jpg" alt="">
-			 							<div class="kf-overlay">
-				 							<h5>slena</h5>
-				 							<ul class="kf-staff-social">
-				 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				 							</ul>
-				 							<p>Nullam ac urna eu felis sit amet a augue. Sed neque sed ut nisi neque sed ut urna eu felis sit amet.</p>
-				 							<a href="#">Read More</a>
-				 						</div>
-				 						
-				 					</figure>
-				 				</div>
-				 				<!--STAFF THUMB END-->
+									<figure>
+										<img src="images/gwpic.png" alt="">
+										<div class="kf-overlay">
+											<h5>Grant Withers</h5>
+											<ul class="kf-staff-social">
+												<li><a href="https://www.facebook.com/grant.withers.731"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="https://www.instagram.com/threeputt_g/"><i class="fa fa-instagram"></i></a></li>
+												<li><a href="http://ilab2.engr.utk.edu:10080/Dr.%20Li/hw/part1/Grant%20Withers/Ceevee10/"><i class="fa fa-behance"></i></a></li>
+											</ul>
+											<p>Grant Withers aka three putt g, spends most of his time snapping necks and cashing checks.</p>
+											<a href="#">Read More</a>
+										</div>
+									</figure>
+								</div>
+								<!--STAFF THUMB END-->
 							</div>
 
 							<div class="item">
 								<!--STAFF THUMB START-->
 								<div class="kf-staff-thumb">
-				 					<figure>
-				 						<img src="extra-images/staff3.jpg" alt="">
-			 							<div class="kf-overlay">
-				 							<h5>ellen</h5>
-				 							<ul class="kf-staff-social">
-				 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				 							</ul>
-				 							<p>Nullam ac urna eu felis sit amet a augue. Sed neque sed ut nisi neque sed ut urna eu felis sit amet.</p>
-				 							<a href="#">Read More</a>
-				 						</div>
-				 						
-				 					</figure>
-				 				</div>
-				 				<!--STAFF THUMB END-->
+									<figure>
+										<img src="images/chefcurreypic.jpg" alt="">
+										<div class="kf-overlay">
+											<h5>Matthew Currey</h5>
+											<ul class="kf-staff-social">
+												<li><a href="https://www.facebook.com/mattcurrey1995?fref=ts"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="https://www.instagram.com/mcurrey95/"><i class="fa fa-instagram"></i></a></li>
+												<li><a href="http://ilab2.engr.utk.edu:10080/Dr.%20Li/hw/part1/Matthew%20Currey/HWpart1/"><i class="fa fa-behance"></i></a></li>
+											</ul>
+											<p>Matthew enjoys shredding the slopes and sluggin cold ones.</p>
+											<a href="#">Read More</a>
+										</div>
+									</figure>
+								</div>
+								<!--STAFF THUMB END-->
 							</div>
 
-							<div class="item">
-								<!--STAFF THUMB START-->
-								<div class="kf-staff-thumb">
-				 					<figure>
-				 						<img src="extra-images/staff1.jpg" alt="">
-			 							<div class="kf-overlay">
-				 							<h5>Anna Doe</h5>
-				 							<ul class="kf-staff-social">
-				 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				 							</ul>
-				 							<p>Nullam ac urna eu felis sit amet a augue. Sed neque sed ut nisi neque sed ut urna eu felis sit amet.</p>
-				 							<a href="#">Read More</a>
-				 						</div>
-				 						
-				 					</figure>
-				 				</div>
-				 				<!--STAFF THUMB END-->
-							</div>
-
-							<div class="item">
-								<!--STAFF THUMB START-->
-								<div class="kf-staff-thumb">
-				 					<figure>
-				 						<img src="extra-images/staff2.jpg" alt="">
-			 							<div class="kf-overlay">
-				 							<h5>slena</h5>
-				 							<ul class="kf-staff-social">
-				 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				 							</ul>
-				 							<p>Nullam ac urna eu felis sit amet a augue. Sed neque sed ut nisi neque sed ut urna eu felis sit amet.</p>
-				 							<a href="#">Read More</a>
-				 						</div>
-				 						
-				 					</figure>
-				 				</div>
-				 				<!--STAFF THUMB END-->
-							</div>
-							<div class="item">
-								<!--STAFF THUMB START-->
-								<div class="kf-staff-thumb">
-				 					<figure>
-				 						<img src="extra-images/staff3.jpg" alt="">
-			 							<div class="kf-overlay">
-				 							<h5>ellen</h5>
-				 							<ul class="kf-staff-social">
-				 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				 							</ul>
-				 							<p>Nullam ac urna eu felis sit amet a augue. Sed neque sed ut nisi neque sed ut urna eu felis sit amet.</p>
-				 							<a href="#">Read More</a>
-				 						</div>
-				 						
-				 					</figure>
-				 				</div>
-				 				<!--STAFF THUMB END-->
-							</div>
-							<div class="item">
-								<!--STAFF THUMB START-->
-								<div class="kf-staff-thumb">
-				 					<figure>
-				 						<img src="extra-images/staff1.jpg" alt="">
-			 							<div class="kf-overlay">
-				 							<h5>Anna Doe</h5>
-				 							<ul class="kf-staff-social">
-				 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				 							</ul>
-				 							<p>Nullam ac urna eu felis sit amet a augue. Sed neque sed ut nisi neque sed ut urna eu felis sit amet.</p>
-				 							<a href="#">Read More</a>
-				 						</div>
-				 						
-				 					</figure>
-				 				</div>
-				 				<!--STAFF THUMB END-->
-							</div>	
 						</div>
 					</div>
 				</div>
+		</div>
 			</section>
 			 <!--SPECIAL STAFF  SECTION END-->
 				<section class="kf-testimonial-bg">
@@ -754,19 +679,19 @@
 					</div>
 				</section>
 			<!--HOTEL ROOMS  SECTION END-->
-			<!--LATEST ARTICAL  SECTION START-->
-			<section class="kf-latest-artical-bg">
+			<!---<!--LATEST ARTICAL  SECTION START-->
+			<!---<section class="kf-latest-artical-bg">
 				<div class="container">
 					<div class="row">
 						<!--HEADING 1 START-->
-						<div class="col-md-12">
+						<!---<div class="col-md-12">
 							<div class="kf-heading-1">
 								<h3>Latest Articles</h3>
 								<span><i class="icon-hotel"></i></span>
 							</div>
-						</div>
+						</div>--->
 						<!--HEADING 1 END-->
-						<div class="kf-latest-artical">
+						<!---<div class="kf-latest-artical">
 							<figure class="col-md-7 col-sm-12"><img src="extra-images/latset-artical1.jpg" alt=""></figure>
 							<div class="text col-md-6 col-sm-12">
 								<h6>Lorem ipsum dolor sit amet occaecat non</h6>
@@ -795,7 +720,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>--->
 			<!--LATEST ARTICAL  SECTION END-->
 
 		</div>
