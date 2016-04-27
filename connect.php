@@ -9,7 +9,7 @@ define('USER','gwither1';
 define('PASSWORD',‘gwither1gwither1’);
 define('DATABASE','users');
 
-$conn = mysql_connect(HOST, USER, PASSWORD, DATABASE);
+$conn = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 
 // Check connection
 if (!$conn) {
