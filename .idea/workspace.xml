@@ -30,61 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="214" column="30" selection-start-line="214" selection-start-column="30" selection-end-line="214" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roomgrid.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/roomgrid.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="224" column="58" selection-start-line="224" selection-start-column="58" selection-end-line="224" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postroom.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/postroom.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-553">
-              <caret line="270" column="12" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ourroom.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ourroom.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="233" column="39" selection-start-line="233" selection-start-column="39" selection-end-line="233" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aboutus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="217" column="58" selection-start-line="217" selection-start-column="58" selection-end-line="217" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactus.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contactus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="219" column="41" selection-start-line="219" selection-start-column="41" selection-end-line="219" selection-end-column="41" />
+            <state relative-caret-position="296">
+              <caret line="729" column="66" selection-start-line="729" selection-start-column="66" selection-end-line="729" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -101,12 +51,12 @@
         <option value="$PROJECT_DIR$/blogdetails.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/our-servicess.html" />
-        <option value="$PROJECT_DIR$/contactus.html" />
-        <option value="$PROJECT_DIR$/aboutus.html" />
-        <option value="$PROJECT_DIR$/ourroom.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/roomgrid.html" />
         <option value="$PROJECT_DIR$/postroom.html" />
+        <option value="$PROJECT_DIR$/aboutus.html" />
+        <option value="$PROJECT_DIR$/contactus.html" />
+        <option value="$PROJECT_DIR$/ourroom.html" />
       </list>
     </option>
   </component>
@@ -235,15 +185,15 @@
       <option name="presentableId" value="Default" />
       <updated>1461721684273</updated>
       <workItem from="1461721686547" duration="6490000" />
-      <workItem from="1461772289642" duration="5376000" />
+      <workItem from="1461772289642" duration="5933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11866000" />
+    <option name="totallyTimeSpent" value="12423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="23" width="1260" height="728" extended-state="0" />
+    <frame x="20" y="23" width="1260" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22495896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -318,50 +268,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="219" column="41" selection-start-line="219" selection-start-column="41" selection-end-line="219" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="217" column="58" selection-start-line="217" selection-start-column="58" selection-end-line="217" selection-end-column="58" />
+        <state relative-caret-position="405">
+          <caret line="173" column="49" selection-start-line="173" selection-start-column="49" selection-end-line="173" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/contactus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="214" column="30" selection-start-line="214" selection-start-column="30" selection-end-line="214" selection-end-column="30" />
+        <state relative-caret-position="200">
+          <caret line="173" column="49" selection-start-line="173" selection-start-column="49" selection-end-line="173" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/roomgrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="224" column="58" selection-start-line="224" selection-start-column="58" selection-end-line="224" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ourroom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="233" column="39" selection-start-line="233" selection-start-column="39" selection-end-line="233" selection-end-column="39" />
+        <state relative-caret-position="290">
+          <caret line="172" column="40" selection-start-line="172" selection-start-column="40" selection-end-line="173" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/postroom.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-553">
-          <caret line="270" column="12" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="12" />
+        <state relative-caret-position="545">
+          <caret line="173" column="49" selection-start-line="173" selection-start-column="49" selection-end-line="173" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ourroom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="144" column="73" selection-start-line="144" selection-start-column="73" selection-end-line="144" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="729" column="66" selection-start-line="729" selection-start-column="66" selection-end-line="729" selection-end-column="80" />
           <folding />
         </state>
       </provider>
