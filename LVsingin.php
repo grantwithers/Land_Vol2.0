@@ -2,38 +2,37 @@
 <?php
 
 define('HOST','ilab.engr.utk.edu:3306');
-define('USER','gwither1';
+define('USER','gwither1');
 define('PASSWORD',‘gwither1gwither1’);
-define('DATABASE','users');
+define('DATABASE','gwither27');
 
-$conn = mysql_connect(HOST, USER, PASSWORD, DATABASE);
+$conn = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 
 if (!$conn) {
-    die('Could not connect: ' . mysql_error());
+    die('Could not connect: ' . mysqli_connect_error());
 }
+echo "Connected Sucessfully!";
 
-if (!mysql_select_db($dbname))
-    die("Can't select database");
-    if (!$result) {
+//if (!mysqli_select_db($dbname))
+  //  die("Can't select database");
+    //if (!$result) {
+//
+  //  die("Query to show fields from table failed");
+//}
 
-    die("Query to show fields from table failed");
+$username = $_POST('u_name');
+$password = $_POST('u_password');
 
-}
-
-$username = $_POST('username');
-$password = $_POST('password');
-
-$sql = "Insert  d $username, $password"
+$sql = "INSERT INTO users(u_name, u_password)
+VALUES ('$username','$password')";
 
 sql_excute()
 
-if(){
-	redirect
-}
-
-check
-
-session
+//if(){
+//	redirect
+//}
+//
+//check
+//
+//session
 ?>
-
-</body></html>
